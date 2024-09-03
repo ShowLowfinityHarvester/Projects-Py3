@@ -14,9 +14,10 @@ print(file.readline())
 print(file.readlines()) # Returns all the lines in a file as a list with each being a line
 file.close()
 
-# Opening, Writing (adding text), and printing a file
+# Opening, Writing (adding text), Overrwiting and printing a file
 
 file = open("example.txt", "a")  # "a" Appends a line to the text file
+file = open("example.txt", "w")  # "w" Replaces everything in a text file. This can also be used to create a new text file!
 file.write("I love programming!")
 file.close()
 
