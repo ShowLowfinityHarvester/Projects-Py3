@@ -25,3 +25,11 @@ file = open("example.txt", "r")
 print(file.read())
 
 # Nested For Loops (this is gonna be a hard one!!!)
+
+list = ["hello" for i in range(5)] 
+print(list) # This code creates a list 5 indexes long, with "hello" as the value in all indexes (1D 1 line)
+
+rows = 3 
+pets = ["str1", "str2", "str3", "str4", "str5"]
+list = [[j for j in pets] for i in range(rows)]
+print(list) # Same thing as the 1D list above but in 2D
