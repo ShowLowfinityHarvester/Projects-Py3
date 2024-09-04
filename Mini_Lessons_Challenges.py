@@ -1,4 +1,5 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
+
 while True:
     try: 
         rows = int(input("Enter in a number! -> "))
