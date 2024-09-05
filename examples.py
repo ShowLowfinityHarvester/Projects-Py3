@@ -36,3 +36,11 @@ print(list) # Same thing as the 1D list above but in 2D
 
 # Multi-Dimensional Lists
 
+rows = 5
+cols = 3
+list = []
+for x in range(rows):
+    col = []
+    for y in range(cols):
+        list.append(5)
+        print(list) # 2d list with 5 rows and 3 columns
