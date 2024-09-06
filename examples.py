@@ -44,3 +44,5 @@ for x in range(rows):
     for y in range(cols):
         list.append(5)
         print(list) # 2d list with 5 rows and 3 columns
+
+# Iterating Through 2D Lists
