@@ -46,3 +46,13 @@ for x in range(rows):
         print(list) # 2d list with 5 rows and 3 columns
 
 # Iterating Through 2D Lists
+
+my_list = [[40, 45, 50], [6, 7, 8], [100, 200, 300], [50, 60, 70], [9, 0, 1]]
+cols = 3
+rows = 5
+
+for i in range(rows):
+    for j in range(cols):
+        my_list[i][j] = my_list[i][j] + 3 # This function interates through the 2d list and adds 3 to all items in the list
+
+print(my_list)
