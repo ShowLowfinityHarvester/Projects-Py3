@@ -53,6 +53,6 @@ rows = 5
 
 for i in range(rows):
     for j in range(cols):
-        my_list[i][j] = my_list[i][j] + 3 # This function interates through the 2d list and adds 3 to all items in the list
+        my_list[i][j] = my_list[i][j] + 3 # This function interates through the 2d list and adds 3 to all items in the list, my_list[i][j] represents every single item in the list in turn.
 
 print(my_list)
