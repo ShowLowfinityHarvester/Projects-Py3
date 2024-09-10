@@ -75,3 +75,6 @@ class Hat: # everything from OOP from above stays the same
         self.material = material
 
 myObject = Hat("ABQ Isotopes Hat", "Red", "Felt") # Adding the instance
+
+# Objects Continued
+
