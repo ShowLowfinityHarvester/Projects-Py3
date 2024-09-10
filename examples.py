@@ -56,3 +56,13 @@ for i in range(rows):
         my_list[i][j] = my_list[i][j] + 3 # This function interates through the 2d list and adds 3 to all items in the list, my_list[i][j] represents every single item in the list in turn.
 
 print(my_list)
+
+# Object-Oriented Programming
+
+class dog: # Class function is a blueprint of an object (outline)
+    def __init__(self, name, color, size): # Initialize The class **Has to be def __init__(self)! 
+        self.name = name
+        self.color = color
+        self.size = size
+
+
