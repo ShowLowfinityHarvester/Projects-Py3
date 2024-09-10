@@ -66,3 +66,12 @@ class dog: # Class function is a blueprint of an object (outline)
         self.size = size
 
 
+# Creating an instance
+
+class Hat: # everything from OOP from above stays the same
+    def __init__(self, kind, color, material):
+        self.kind = kind
+        self.color = color
+        self.material = material
+
+myObject = Hat("ABQ Isotopes Hat", "Red", "Felt") # Adding the instance
