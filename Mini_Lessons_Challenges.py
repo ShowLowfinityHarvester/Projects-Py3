@@ -1,18 +1,17 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-class Vacation:
-    def __init__(self, place, distance, weather):
-        self.place = place
-        self.distance = distance
-        self.weather = weather
+class Friday:
+    def __init__(self, activity, friend):
+        self.activity = activity
+        self.friend = friend
 
 
-    def tuesday(self):
-        print("We will be hiking on Tuesday.")
+    def pictures(self):
+        print("We took so many pictures!")
 
-summer = Vacation("Hawaii", 2000, "Sunny")
-summer.rating = 10
-summer.weather = "rainy"
-print(summer)
-print(summer.rating)
-print(summer.weather)
+thisWeekend = Friday("Movie", "Charlotte")
+thisWeekend.money = 20
+thisWeekend.friend = "Shane"
+print(thisWeekend)
+print(thisWeekend.money)
+print(thisWeekend.friend)
