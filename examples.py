@@ -78,3 +78,19 @@ myObject = Hat("ABQ Isotopes Hat", "Red", "Felt") # Adding the instance
 
 # Objects Continued
 
+class Vacation:
+    def __init__(self, place, distance, weather):
+        self.place = place
+        self.distance = distance
+        self.weather = weather
+
+
+    def tuesday(self): # Object Method
+        print("We will be hiking on Tuesday.")
+
+summer = Vacation("Hawaii", 2000, "Sunny")
+summer.rating = 10 # Adding an attribute
+summer.weather = "rainy" # Modifying the object propertiesS
+print(summer)
+print(summer.rating)
+print(summer.weather)
