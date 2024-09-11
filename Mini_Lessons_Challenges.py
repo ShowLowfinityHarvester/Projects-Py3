@@ -1,12 +1,18 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-class Pet:
-    def __init__(self, pet, kind, age):
-        self.pet = pet
-        self.kind = kind
-        self.age = age
+class Vacation:
+    def __init__(self, place, distance, weather):
+        self.place = place
+        self.distance = distance
+        self.weather = weather
 
 
-Cat = Pet("Potion", "Cat", "5")
-Dog = Pet("Mariska", "Dog", "7")
-Rabbit = Pet("Tyreeq", "Rabbit", "1")
+    def tuesday(self):
+        print("We will be hiking on Tuesday.")
+
+summer = Vacation("Hawaii", 2000, "Sunny")
+summer.rating = 10
+summer.weather = "rainy"
+print(summer)
+print(summer.rating)
+print(summer.weather)
