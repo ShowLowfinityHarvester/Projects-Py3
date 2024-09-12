@@ -96,3 +96,14 @@ print(summer.rating)
 print(summer.weather)
 
 # stacks
+
+stack = []
+
+stack.append('WXJ34')
+stack.append('WXL90')
+stack.append('WXJ38')
+stack.append('WWG36')
+
+stack.pop()
+
+print(stack)
