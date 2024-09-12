@@ -1,17 +1,12 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-first = "r"
-second = "t"
-third = "s"
-fourth = "y"
-fifth = "o"
+answer = ["apples", "steak", "potatoes", "carrots"]
+input = input("What food are we bringing to the place? -> ")
 
-scrambler = []
+if "s" in input:
+    answer.append(input)
+    print(answer)
+else:
+    print("The input doesn't have the letter s")
 
-scrambler.append(third)
-scrambler.append(second)
-scrambler.append(fifth)
-scrambler.append(first)
-scrambler.append(fourth)
 
-print(scrambler)
