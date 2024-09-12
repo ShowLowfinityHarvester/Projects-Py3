@@ -94,3 +94,5 @@ summer.weather = "rainy" # Modifying the object propertiesS
 print(summer)
 print(summer.rating)
 print(summer.weather)
+
+# stacks
