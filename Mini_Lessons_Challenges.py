@@ -1,17 +1,16 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-class Friday:
-    def __init__(self, activity, friend):
-        self.activity = activity
-        self.friend = friend
+class Shopping:
+    def __init__(self, item, quality):
+        self.item = item
+        self.quality = quality
+        self.total = []
 
+    def spending(self, cost):
+        self.total.append(cost)
 
-    def pictures(self):
-        print("We took so many pictures!")
-
-thisWeekend = Friday("Movie", "Charlotte")
-thisWeekend.money = 20
-thisWeekend.friend = "Shane"
-print(thisWeekend)
-print(thisWeekend.money)
-print(thisWeekend.friend)
+sportStore = Shopping("Kayak", "High Quality")
+sportStore.spending(100)
+sportStore.spending(94)
+sportStore.spending(34)
+print(sportStore.total)
