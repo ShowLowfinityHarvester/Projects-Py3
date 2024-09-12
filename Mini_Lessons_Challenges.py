@@ -1,16 +1,12 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-class Shopping:
-    def __init__(self, item, quality):
-        self.item = item
-        self.quality = quality
-        self.total = []
+stack = []
 
-    def spending(self, cost):
-        self.total.append(cost)
+stack.append('WXJ34')
+stack.append('WXL90')
+stack.append('WXJ38')
+stack.append('WWG36')
 
-sportStore = Shopping("Kayak", "High Quality")
-sportStore.spending(100)
-sportStore.spending(94)
-sportStore.spending(34)
-print(sportStore.total)
+stack.pop()
+
+print(stack)
