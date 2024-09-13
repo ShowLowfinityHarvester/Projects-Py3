@@ -125,9 +125,9 @@ def feeding(this_list):
     feeding(second_half)
     feeding(this_list)
 
-    # Recursion vs. Iteration
+# Recursion vs. Iteration
 
-    n = int(input("Number -> "))
+n = int(input("Number -> "))
 def fact(jay):
     if jay <= 1:
         return 1
