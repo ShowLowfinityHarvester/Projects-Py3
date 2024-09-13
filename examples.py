@@ -123,4 +123,3 @@ def feeding(this_list):
 
     feeding(first_half)
     feeding(second_half)
-    feeding(this_list)
