@@ -124,3 +124,13 @@ def feeding(this_list):
     feeding(first_half)
     feeding(second_half)
     feeding(this_list)
+
+    # Recursion vs. Iteration
+
+    n = int(input("Number -> "))
+def fact(jay):
+    if jay <= 1:
+        return 1
+    else:
+        return jay * (fact(jay-1))
+print(fact(n)) # This is a recursive factorial function
