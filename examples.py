@@ -138,31 +138,38 @@ print(fact(n)) # This is a recursive factorial function
 # Bubble Sort
 
 def bubble_sort(arr):
-    n = len(arr)  
-    
+    n = len(arr)
     for i in range(n):
-        swapped = False  
-        
-        for j in range(0, n - i - 1):
+        for j in range(0, n-i-1):
             if arr[j] > arr[j + 1]:
-                
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-                swapped = True
-       
-        if not swapped:
-            break
-
 
 arr = [10, 32, 4, 90, 15, 20, 89, 1, 3, 45, 42, 87, 91, 18, 25, 76, 38, 12]
 
-
-user_input = int(input("Enter a number to add to the list: "))
-
-
-arr.append(user_input)
-
-
+inum = int(input("Please Input a Number -> "))
+arr.append(inum)
 bubble_sort(arr)
+print(arr)
 
+# Selection Sort
 
+# sdd
+
+# Insertion Sort
+
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        val_to_insert = arr[i]
+        insert_spot = i
+        while insert_spot > 0 and arr[insert_spot - 1] > val_to_insert:
+            arr[insert_spot] = arr[insert_spot - 1]
+            insert_spot -= 1
+
+        arr[insert_spot] = val_to_insert
+
+arr = [10, 32, 4, 90, 15, 20, 89, 1, 3, 45, 42, 87, 91, 18, 25, 76, 38, 12]
+
+inum = int(input("Please Input a Number -> "))
+arr.append(inum)
+insertion_sort(arr)
 print(arr)
